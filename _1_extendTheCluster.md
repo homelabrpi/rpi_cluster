@@ -4,7 +4,8 @@
 ```
 wget https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
-#setup --kubelet-insecure-tls on the metricsserver container
+#setup --kubelet-insecure-tls on the metricsserver container options
 
 k apply -f components.yaml
+
 ```

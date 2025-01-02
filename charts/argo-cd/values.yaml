@@ -1,4 +1,6 @@
 argo-cd:
+  global:
+    namespace: argocd
   dex:
     enabled: false
   notifications:

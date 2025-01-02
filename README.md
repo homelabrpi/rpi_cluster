@@ -225,7 +225,7 @@ sudo systemctl restart kubelet
 ```
 
 ```
-sudo ip link set cni0 down && sudo ip link set flannel.1 down 
+sudo ip link set cni0 down && sudo ip link set flannel.1 down
 sudo ip link delete cni0 && sudo ip link delete flannel.1
 systemctl restart containerd && systemctl restart kubelet
 
